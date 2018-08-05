@@ -1,0 +1,25 @@
+---
+title: Index page
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+    
+    <canvas id="canvas" width="550" height="550">
+        
+    </canvas>
+    <div class="handlers">
+        <label for="handler1">
+            <p>Dots</p>
+            <input type="range" name="dots" id="handler1" min="100" max="1000" step="10" value="666">
+        </label>
+        <label for="handler2">
+            <p>Count</p>
+            <input type="range" name="count" id="handler2" min="10" max="50" step="1" value="13">
+        </label>
+
+        
+        
+    </div>
+
+{% endblock %}
